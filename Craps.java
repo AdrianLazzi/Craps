@@ -8,6 +8,13 @@
 import java.util.Scanner;
 public class Craps
 {
+    
+    /**
+     * int rollDie finds the sum of two die rolls
+     * @param roll1 the first die roll
+     * @param roll2 the second die roll
+     * @return roll1 + roll2
+     */
     public static int rollDie(Die roll1, Die roll2)
     {
         
@@ -17,6 +24,9 @@ public class Craps
         return roll1.getRoll() + roll2.getRoll();
     }
     
+    /**
+     * void instructions prints Craps instructions
+     */
     public static void instructions(String instructions)
     {
         

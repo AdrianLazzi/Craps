@@ -2,8 +2,8 @@
 /**
  * Write a description of class Die here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Adrian Lazzi
+ * @version 2022-01-18
  */
 public class Die
 {
@@ -19,17 +19,18 @@ public class Die
         roll = dieRoll();
     }
 
-    
+    /**
+     * int dieRoll method returns the roll of a dice
+     * @return roll the roll
+     */
     public int dieRoll()
     {
         roll = (int) (Math.random() * 6) + 1;
         return roll;
     }
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * int getRoll gets the roll
+     * @return roll the roll
      */
     public int getRoll()
     {
