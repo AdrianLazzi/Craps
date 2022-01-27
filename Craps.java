@@ -135,3 +135,26 @@ public class Craps
         
     }
 }
+
+/*
+
+COMMENTS FROM THE INSTRUCTOR:
+
+Wow, Adrian. This was amazing. You correctly implemented the rules of Craps in this game,
+included code to accept default answers for "Yes/No" inputs from the user, and even 
+included some stats to track gameplay over time. That was a nice feature to add!
+
+I noticed that you used a couple of static methods in your program for the die roll
+and for displaying the instructions. Those work out well in a small program like this,
+and I've even asked you to write static methods such as this on previous assignments.
+Going forward, we won't be using static methods much, if at all, in our projects. If
+you find that you want to use a static method, in our larger projects we'll typically
+create a new class that will provide those capabilities. That's more in keeping with 
+true object-oriented design approaches to software development.
+
+We're going to have a great semester in here. Looking forward to it!
+
+SCORE: 55/50
+
+*/
+
